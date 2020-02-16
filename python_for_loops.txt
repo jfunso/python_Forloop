@@ -1,0 +1,30 @@
+print("\nSession starts")
+home = ["cat", "mouse", "fish"]
+for x in home:
+  print(x) 
+  if x == "mouse":
+    break
+
+
+print("\nSession begins")
+home = ["cat", "mouse", "fish"]
+for x in home:
+  if x == "mouse":
+    break
+  print(x)
+
+
+print("\nSession begins")
+home = ["cat", "mouse", "fish"]
+for x in home:
+  if x == "mouse":
+    continue
+  print(x) 
+
+
+print("\nSession begins")
+table = ["pen", "book", "laptop"]
+home = ["cat", "mouse", "fish", "meat"]
+for x in table:
+  for y in home:
+    print(x, y) 
